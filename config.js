@@ -1,2 +1,0 @@
-// api key for mapbox
-const API_KEY= "pk.eyJ1IjoicmFtb24wMTAxYWxvbnNvIiwiYSI6ImNsOWRrZ2U5MzFjMDkzdXBpa3V5ZWpraGwifQ.9LggKAuIehhgYipv2vXdDA"
