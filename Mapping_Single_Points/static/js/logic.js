@@ -6,6 +6,15 @@ console.log("working");
 // the mapid will reference the id tag in our <div> element on the index.html file
 let map = L.map('mapid').setView([40.7, -94.5], 4);
 
+// module 13.4.1
+L.circle([34.0522, -118.2437], {
+    radius: 100
+ }).addTo(map);
+
+// module 13.4.1
+//  Add a marker to the map for Los Angeles, California.
+let marker = L.marker([34.0522, -118.2437]).addTo(map);
+
 // We create the tile layer that will be the background of our map.
 // tileLayer() method is being used
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
